@@ -105,7 +105,7 @@
 }
 
 /* Dodicesimo esercizio */
-.ex-12-button:hover , .ex-12-top-white{
+.ex-12-button:hover .ex-12-top-white{
     animation: movetopwhitespace 2s linear;
 }   
 @keyframes movetopwhitespace{
@@ -120,7 +120,7 @@
     }
 }
 
-.ex-12-button:hover , .ex-12-bottom-white{
+.ex-12-button:hover .ex-12-bottom-white{
     animation: movebottomwhitespace 2s linear;
 }
 @keyframes movebottomwhitespace{
@@ -134,3 +134,5 @@
         right: 15%;
     }
 }
+
+/* Tredicesimo esercizio */
